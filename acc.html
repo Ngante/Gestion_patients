@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bootstrap\css\bootstrap.min.css">
+    <script src="bootstrap\js\bootstrap.min.js"></script>
+    <link rel="stylesheet" href="fontawesome/css/all.css">    
+    <link rel="stylesheet" href="css/medecin.css" />
+    <script src="js/script.js"></script>
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Login</title>
+</head>
+
+<body>
+
+    <style>
+        .bd-placeholder-img {
+          font-size: 1.125rem;
+          text-anchor: middle;
+          -webkit-user-select: none;
+          -moz-user-select: none;
+          user-select: none;
+        }
+    
+        @media (min-width: 768px) {
+          .bd-placeholder-img-lg {
+            font-size: 3.5rem;
+          }
+        }
+      </style>
+    
+    
+    
+    <!-- header section start -->
+            <header>
+                <a href="#" class="logo">MyHospital</a>
+    
+                <nav class="navbar">
+                    <a class="active" href="#home">home</a>
+                    <a href="#">Acceuil</a>
+                    <a href="circuit.php"></a>
+                    <a href="deconnect.php"></a>
+                    <a href="deplacement.html"></a>
+                    <a href="ville.html"></a>
+                    <a href="reservation.html"></a>
+                </nav>
+    
+                <div class="icons">
+                    <i class="fas fa-bars" id="menu-bars"></i>
+                    <i class="fas fa-search" id="search-icon"></i>
+                </div>  
+    
+              
+            </header>
+
+    <div class="form-container">
+        <form action="index.php" method="POST" id="form">
+            <h3>Connexion</h3>
+            <div class="container">
+                <span class="icon">
+                    <i class="fas fa-user"></i>
+                </span>
+                <input type="email" placeholder="Email" name="mail" required/>
+            </div>
+            <div class="container">
+                <span class="icon">
+                    <i class="fas fa-lock"></i>
+                </span>
+                <input type="password" placeholder="Mot de passe" name="mdp" required />
+            </div>
+            <input type="submit" value="valider">
+
+            <div class="link-create">
+                <a href="create.html">Creer un compte</a>
+            </div>
+            
+        </form>
+    </div>
+</body>
+
+</html>

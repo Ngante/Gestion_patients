@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bootstrap\css\bootstrap.min.css">
+    <script src="bootstrap\js\bootstrap.min.js"></script>
+    <link rel="stylesheet" href="fontawesome/css/all.css">    
+    <link rel="stylesheet" href="css/newpat.css"/>
+    <title>patient</title>
+</head>
+
+<body>
+    <div class="form-container">
+        <form action="create.php" method="POST" id="form">
+            <h3>Ajouter un patient</h3>
+            <div class="container">
+                <span class="icon">
+                    <i class="fas fa-user"></i>
+                </span>
+                <input type="text" placeholder="Nom" name="nom"/>
+            </div>
+            <div class="container">
+                <span class="icon">
+                    <i class="fas fa-user"></i>
+                </span>
+                <input type="text" placeholder="Prenom" name="prenom"/>
+            </div>
+            <div class="container">
+                <span class="icon">
+                    <i class="fas fa-at"></i>
+                </span>
+                <input type="email" placeholder="Email" name="mail"/>
+            </div>
+            <div class="container">
+                <span class="icon">
+                    <i class="fas fa-lock"></i>
+                </span>
+                <input type="text" placeholder="taille" name="tail"/>
+            </div>
+            <div class="container">
+                <span class="icon">
+                    <i class="fas fa-lock"></i>
+                </span>
+                <input type="date" placeholder="datenaissance" name="dateN"/>
+            </div>
+            <div class="container">
+                <span class="icon">
+                    <i class="fas fa-lock"></i>
+                </span>
+                <input type="text" placeholder="poids" name="poids"/>
+            </div>
+            <input type="submit" value="Ajouter">          
+        </form>
+    </div>
+</body>
+
+</html>
